@@ -32,7 +32,7 @@ app.get("/", async (req, resq, next) => {
 //  Routes
 app.use(proute);
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5100;
 app.listen(PORT, () => {
   console.log(`Server is Runing on Port ${PORT}`);
 });
