@@ -7,4 +7,4 @@ const productSchema = new mongoose.Schema({
   pid: Number,
 });
 
-mongoose.model("Product", productSchema);
+module.exports = mongoose.model("Product", productSchema);
