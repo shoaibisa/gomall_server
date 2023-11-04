@@ -5,6 +5,10 @@ const productSchema = new mongoose.Schema({
   price: Number,
   expiry: Date,
   pid: Number,
+  isavailable: {
+    type: Boolean,
+    default: true,
+  },
 });
 
 module.exports = mongoose.model("Product", productSchema);
