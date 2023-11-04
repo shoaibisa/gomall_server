@@ -38,8 +38,8 @@ exports.createBill = async (req, res) => {
 };
 
 exports.getBill = async (req, res) => {
-  const id = req.params.id;
-  const bill = await Bill.findById(req.body.id).populate("products");
+  const id = req.params.bid;
+  const bill = await Bill.findById(id).populate("products");
   return res.status(200).send({
     iserror: false,
     message: "Success",

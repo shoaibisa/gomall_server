@@ -5,7 +5,7 @@ const router = express.Router();
 
 router.get("/getproduct/:pid", pCon.getProductById);
 router.post("/createbill", pCon.createBill);
-router.post("/getbill", pCon.getBill);
+router.get("/getbill/:bid", pCon.getBill);
 
 router.get("/nai", pCon.hello);
 
