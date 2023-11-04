@@ -14,6 +14,7 @@ exports.getProductById = async (req, res) => {
 
 exports.createBill = async (req, res) => {
   const products = req.body.products;
+  console.log(req.body);
 
   var totalPrice = 0;
   for (var p = 0; p < products.length; p++) {
