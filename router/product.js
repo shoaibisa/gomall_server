@@ -3,8 +3,10 @@ const pCon = require("../controller.js/product");
 
 const router = express.Router();
 
-router.post("/getproduct", pCon.getProductById);
+router.get("/getproduct/:pid", pCon.getProductById);
 router.post("/createbill", pCon.createBill);
 router.post("/getbill", pCon.getBill);
+
+router.get("/nai", pCon.hello);
 
 module.exports = router;

@@ -8,6 +8,7 @@ const BillSchema = mongoose.Schema(
         ref: "Product",
       },
     ],
+    totalPrice: Number,
   },
   { timestamps: true }
 );
