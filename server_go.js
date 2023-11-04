@@ -30,7 +30,7 @@ app.get("/", async (req, resq, next) => {
 });
 
 //  Routes
-app.use(proute);
+app.use("/", proute);
 
 const PORT = 5111;
 app.listen(PORT, () => {
