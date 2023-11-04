@@ -3,6 +3,7 @@ const Bill = require("../models/bill");
 
 exports.getProductById = async (req, res) => {
   const pid = req.params.pid;
+  console.log(pid);
   const product = await Product.findOne({ pid: pid });
   return res.status(200).send({
     iserror: false,
