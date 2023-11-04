@@ -13,17 +13,24 @@ exports.getProductById = async (req, res) => {
 };
 
 exports.createBill = async (req, res) => {
-  const produts = req.body.products;
+  const products = req.body.products;
+
+  var totalPrice = 0;
+  for (var p = 0; p < products.length; p++) {
+    const product = await Product.findById(products[p]);
+    totalPrice = totalPrice + product.price;
+  }
+
   const bill = new Bill({
     products: products,
-    totalPrice: req.body.totalPrice,
+    totalPrice: totalPrice,
   });
   await bill.save();
 
   return res.status(200).send({
     iserror: false,
     message: "Success",
-    product: product,
+    bill: bill._id,
   });
 };
 
