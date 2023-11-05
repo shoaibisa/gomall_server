@@ -132,8 +132,9 @@ This section provides instructions on how to use the Rapid Receipt application.
 
 3. Use your device's camera to scan the barcode of the product.
    
-
+<img src="https://raw.githubusercontent.com/shoaibisa/rapid-receipt/master/images/WhatsApp%20Image%202023-11-05%20at%202.27.30%20PM.jpeg" />
 5. The scanned product information will be displayed on the screen.
+<img src="https://raw.githubusercontent.com/shoaibisa/rapid-receipt/master/images/WhatsApp%20Image%202023-11-05%20at%202.27.32%20PM.jpeg" />
 ## Admin Side
 ### Adding Products Manually
 
