@@ -15,7 +15,7 @@
          <img src="https://raw.githubusercontent.com/shoaibisa/rapid-receipt/master/images/rapid-receipts-high-resolution-logo-transparent.png" alt="head" height="200px" width="200px" height="100px" />
 </p>
 
-
+[ppt link](https://docs.google.com/presentation/d/11gI5HQ7mO3mREH3Dks0aeecER4kXmctR/edit?usp=sharing&ouid=117849667244297270354&rtpof=true&sd=true)
 ## Project Problem Overview 😺
 ## Problems
 
@@ -138,25 +138,34 @@ This section provides instructions on how to use the Rapid Receipt application.
 ### Adding Products Manually
 
 1. Click the "Add Product" button on the homepage.
+<img src="https://raw.githubusercontent.com/shoaibisa/rapid-receipt/master/images/admin2.png" />
 
-2. Fill in the product details, such as name, description, and price.
+3. Fill in the product details, such as name, description, and price.
 
-3. Click "Save" to add the product to the database.
+
+
+5. Click "Save" to add the product to the database.
 
 ### Viewing and Managing Products
 
 1. Navigate to the "Products" section to view the list of all scanned and manually added products.
 
 2. You can edit or delete product information by clicking on the respective product entry.
+<img src="https://raw.githubusercontent.com/shoaibisa/rapid-receipt/master/images/admin1.png" />
 
 ### Generating Receipts
 
 1. Go to the "Receipts" section to generate and view receipts.
 
-2. Select the products you want to include in the receipt.
+<img src="https://raw.githubusercontent.com/shoaibisa/rapid-receipt/master/images/WhatsApp%20Image%202023-11-05%20at%2010.49.21%20AM.jpeg" />
 
-3. Click "Generate Receipt" to create a receipt with the selected products.
+3. Select the products you want to include in the receipt.
 
+
+
+4. Click "Generate Receipt" to create a receipt with the selected products.
+
+<img src="https://raw.githubusercontent.com/shoaibisa/rapid-receipt/master/images/WhatsApp%20Image%202023-11-05%20at%2011.12.52%20AM.jpeg" />
 ## Example Use Cases
 
 Here are some common scenarios where Rapid Receipt can be particularly useful:
@@ -194,18 +203,7 @@ npm install
 npm start
   
 ```
-## 👩‍💻Contributing
-
-We welcome contributions from the open-source community to help improve and enhance the Rapid Receipt project. Whether you want to report a bug, suggest a feature, or submit code changes, your contributions are valuable. Here's how you can get involved:
-
-## 🐛Bug Reports
-
-If you encounter a bug or an issue while using Rapid Receipt, please check the [GitHub Issues](https://github.com/your-username/rapid-receipt/issues) to see if it has already been reported. If not, you can submit a new issue following these guidelines:
-
-- Include a clear and descriptive title.
-- Provide a detailed description of the issue, including steps to reproduce it.
-- Mention the version of Rapid Receipt you were using.
-- Attach any relevant screenshots or error messages.
+ 
 
 ## Feature Requests
 
