@@ -1,4 +1,11 @@
-# RapidReceipt[👩‍💻]
+
+
+<h1 align="center">
+        <samp>&gt;
+                <b><a target="_blank" href="http://rapidreceipt.techfestsliet.org/prerequisite">Rapid~receipt</a></b>
+        </samp>
+</h1>
+
 ## Project Overview 😺
 * "RapidReceipt" is an innovative project focused on streamlining and expediting the receipt and payment process for both consumers and businesses. It offers a seamless solution for reducing the time and effort traditionally spent on financial transactions.  Here's a brief overview. 
 * RapidReceipt is a revolutionary platform designed to eliminate the need for intermediaries, such as cashiers, in the payment process. It leverages cutting-edge technologies to empower users to make quick and hassle-free payments by scanning product barcodes. The system is driven by an admin panel that allows for easy product definition and management.
